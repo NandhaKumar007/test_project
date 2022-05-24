@@ -1,0 +1,157 @@
+ header{
+    font-style: inherit;
+      text-align: center;
+      background-color: cornflowerblue;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: white;
+  }
+  .put{
+    height: 30px;
+    width: 150px;
+  } 
+  .nav-link{
+    font-size: 30px;
+  }
+  .nav-item a:hover{
+background-color: cornflowerblue;
+  }
+  .bi{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .im{
+    /* Full height */
+    height: 600px;
+     width: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .text {
+   background-color: rgba(458, 459, 459, 0.8);
+    color: black;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+
+.mySlides {display: none}
+
+ /* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+
+}
+
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active , .dot:hover {
+background-color: gray;
+}
+
+.but{
+font-size: 15px;
+padding-bottom: 15px;
+padding-top: 15px;
+padding-left: 30px;
+padding-right: 30px;
+box-shadow: black 5px 5px ;
+
+}
+
+input::placeholder{
+color:white;
+}
+
+.col:hover{
+background-color: lightgray;
+}
+
+.container-fluid .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+h2{
+margin-top: 10px;
+font-size: 25px;
+margin-left: 10px;
+}
+
+#bu{
+border-radius: 3px;
+color: white;
+font-size: 15px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color:cornflowerblue ;
+box-shadow:gray 5px 5px;
+margin-top: 20px;
+font-family: serif;
+
+}
+.bb{
+font-size: 15px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+p{
+font-size: 20px;
+}
+
+#pa{
+font-family: serif;
+}
+
+.pro{
+    height: 300px;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.ban{
+    background-color: cornflowerblue;
+}
+
+#ban{
+    color: white;
+    text-align: center;
+    font-size: 30px; 
+    padding-top: 30px; 
+}
+footer{
+  font-family: serif; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

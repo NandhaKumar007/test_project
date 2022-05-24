@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Login Page</title>
+    <style>
+        body{
+           background-color: cornflowerblue;
+        }
+        .log{
+            box-shadow: 10px 10px black ;   
+            margin-top: 50px;
+            margin-left: 50%;
+            border-radius: 15px;
+            border: 2px solid black;
+            width: 400px;
+            height: 350px;
+            padding-top: 20px;
+            color: white;
+            text-shadow: black 5px 5px;
+        }
+
+        .but{
+            font-size: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 10px;
+            border: black solid 2px;
+            background-color: cornflowerblue;
+            color: white;
+            box-shadow: 6px 6px grey;
+        }
+        i , h1{
+        word-spacing: 10px;
+        } 
+
+        input{
+            border-radius: 5px;
+        }
+        
+        label{
+            font-weight: 700;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="log mx-auto text-center"> 
+   
+        <h1><i class="b bi-bag-fill">COAT WORLD</i></h1>
+        <h1>login</h1>
+        <input type="text" placeholder="username" id="un" class="un"><br><br>
+        <input type="password" placeholder="password" id="ps" class="ps"><br><br>
+        <button class="but" title="Login" type="button" onclick="check()">login</button>
+    
+</div>
+    <script>
+        function check(){
+            var un=document.getElementById("un").value;
+            var ps=document.getElementById("ps").value;
+            if("nandhu"==un){ 
+                if(12345==ps){
+                    location.replace("index.html"); 
+                }else{
+                    alert("incorrect password");
+                }
+                }else{
+                    alert("incorrect username");
+                }
+            }
+            </script> 
+    
+</body>
+</html>
